@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Proposal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="heart">❤️</div>
+
+    <h1>Will you go on a date with me?</h1>
+
+    <div class="buttons">
+      <button id="yesBtn" onclick="celebrate()">Yes!</button>
+      <button id="noBtn" onmouseover="moveButton()">No</button>
+    </div>
+
+    <div id="response" class="hidden">
+      <h2>Awesome! Can't wait. See you then! 🎉</h2>
+
+      <p>Here is what I have planned:</p>
+
+      <img
+        src="https://i.imgur.com/mK3fV13.png"
+        alt="Date Plan"
+        class="plan-image"
+      >
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
